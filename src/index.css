@@ -1,0 +1,334 @@
+/* ============================= */
+/* TIPOGRAFÍAS FUTURISTAS */
+/* ============================= */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;800&family=Poppins:wght@300;500;700&display=swap');
+
+:root {
+  --primary: #00f5ff;
+  --secondary: #ff00ff;
+  --dark-bg: #f8f8f8;
+  --glass-bg: rgba(255, 255, 255, 0.096);
+  --border-glass: rgb(255, 255, 255);
+  --text-light: #e0e0e0;
+  --text-dim: #faf8f8;
+}
+
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(circle at top left, #0a0a0f, #111827, #1f2937);
+  color: var(--text-light);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* ============================= */
+/* NAVBAR FUTURISTA (Bootstrap 5) */
+/* ============================= */
+.navbar-custom {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border-glass);
+  padding: 12px 30px;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.6);
+}
+
+.navbar-custom .logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: 'Orbitron', sans-serif;
+  color: var(--primary) !important;
+  text-shadow: 0 0 10px var(--primary), 0 0 20px var(--secondary);
+}
+
+.navbar-custom .menu .nav-link {
+  color: var(--primary) !important;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-left: 20px;
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.navbar-custom .menu .nav-link::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background: var(--secondary);
+  transition: width 0.3s ease;
+}
+
+.navbar-custom .menu .nav-link:hover::after {
+  width: 100%;
+}
+
+.navbar-custom .menu .nav-link:hover {
+  color: #fff !important;
+  text-shadow: 0 0 8px var(--primary), 0 0 16px var(--secondary);
+}
+
+/* Hamburguesa personalizada */
+.navbar-toggler {
+  border: none !important;
+}
+
+.navbar-toggler-icon {
+  filter: drop-shadow(0 0 5px var(--primary));
+}
+
+/* ============================= */
+/* CONTENEDOR PRINCIPAL */
+/* ============================= */
+main {
+  padding: 90px 20px;
+  text-align: center;
+  animation: fadeIn 1.5s ease forwards;
+  opacity: 0;
+}
+
+/* ============================= */
+/* TARJETAS con glass + glow */
+/* ============================= */
+.card {
+  background: var(--glass-bg);
+  border: 1px solid var(--border-glass);
+  border-radius: 18px;
+  padding: 35px;
+  margin: 25px auto;
+  max-width: 420px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 0 25px var(--primary), 0 0 40px var(--secondary);
+}
+
+/* ============================= */
+/* BOTONES futuristas */
+/* ============================= */
+button,
+.btn {
+  background: linear-gradient(135deg, var(--primary), var(--secondary));
+  color: #fff !important;
+  border: none !important;
+  padding: 14px 32px;
+  border-radius: 40px;
+  font-weight: bold;
+  font-family: 'Orbitron', sans-serif;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 15px rgba(0, 245, 255, 0.6);
+}
+
+button:hover,
+.btn:hover {
+  background: linear-gradient(135deg, var(--secondary), var(--primary));
+  box-shadow: 0 0 25px var(--primary), 0 0 40px var(--secondary);
+  transform: scale(1.07);
+}
+
+/* ============================= */
+/* FORMULARIOS futuristas */
+/* ============================= */
+input, textarea, select {
+  background: rgb(255, 251, 251);
+  border: 1px solid rgb(255, 255, 255);
+  padding: 14px 18px;
+  border-radius: 12px;
+  color: var(--text-light);
+  width: 100%;
+  margin-top: 14px;
+  font-family: 'Poppins', sans-serif;
+  transition: border 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border: 1px solid var(--secondary);
+  box-shadow: 0 0 15px var(--primary), 0 0 25px var(--secondary);
+}
+
+input::placeholder, textarea::placeholder {
+  color: var(--text-dim);
+}
+
+/* ============================= */
+/* TEXTO con glow */
+/* ============================= */
+.glow-text {
+  color: var(--primary);
+  text-shadow: 0 0 10px var(--primary), 0 0 20px var(--secondary);
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 2px;
+}
+
+.neon-pulse {
+  animation: neonPulse 2s infinite;
+}
+
+/* ============================= */
+/* ANIMACIONES */
+/* ============================= */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes neonPulse {
+  0%, 100% {
+    text-shadow: 0 0 10px var(--primary), 0 0 20px var(--secondary);
+  }
+  50% {
+    text-shadow: 0 0 20px var(--secondary), 0 0 40px var(--primary);
+  }
+}
+/* Navbar futurista */
+.navbar-custom {
+  background: var(--glass-bg) !important;
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--border-glass);
+  padding: 12px 40px;
+  box-shadow: 0 6px 25px rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+/* Logo a la izquierda */
+.navbar-custom .logo {
+  font-size: 1.4rem;
+  font-weight: 800;
+  font-family: 'Orbitron', sans-serif;
+  color: var(--primary) !important;
+  text-shadow: 0 0 10px var(--primary), 0 0 20px var(--secondary);
+  margin-right: auto; /* <-- empuja el menú a la derecha */
+}
+
+/* Menú a la derecha */
+.navbar-custom .menu {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+/* ============================= */
+/* BUSCADOR futurista */
+/* ============================= */
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  background: rgb(255, 255, 255) !important;
+  border: 1px solid rgba(0, 245, 255, 0.3) !important;
+  color: var(--text-light) !important;
+  border-radius: 12px;
+  padding: 8px 14px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  width: 180px;
+}
+
+.search-input::placeholder {
+  color: var(--text-dim);
+}
+
+.search-input:focus {
+  outline: none;
+  border: 1px solid var(--secondary) !important;
+  box-shadow: 0 0 12px var(--primary), 0 0 20px var(--secondary);
+}
+
+/* Botón buscar futurista */
+.search-btn {
+  background: linear-gradient(135deg, var(--primary), var(--secondary)) !important;
+  border: none !important;
+  border-radius: 12px;
+  padding: 6px 14px;
+  font-weight: bold;
+  color: #fff !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 245, 255, 0.6);
+}
+
+.search-btn:hover {
+  background: linear-gradient(135deg, var(--secondary), var(--primary)) !important;
+  box-shadow: 0 0 20px var(--primary), 0 0 30px var(--secondary);
+  transform: scale(1.05);
+}
+/* Ajustes del buscador futurista */
+.search-box {
+  display: flex;
+  align-items: center;
+}
+
+.search-input {
+  background: rgb(255, 255, 255) !important;
+  border: 1px solid rgba(0, 245, 255, 0.3) !important;
+  color: var(--text-light) !important;
+  border-radius: 12px;
+  padding: 8px 14px;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  width: 180px; /* default en escritorio */
+}
+
+.search-input::placeholder {
+  color: var(--text-dim);
+}
+
+.search-input:focus {
+  outline: none;
+  border: 1px solid var(--secondary) !important;
+  box-shadow: 0 0 12px var(--primary), 0 0 20px var(--secondary);
+}
+
+.search-btn {
+  background: linear-gradient(135deg, var(--primary), var(--secondary)) !important;
+  border: none !important;
+  border-radius: 12px;
+  padding: 6px 14px;
+  font-weight: bold;
+  color: #fff !important;
+  transition: all 0.3s ease;
+  box-shadow: 0 0 12px rgba(0, 245, 255, 0.6);
+}
+
+.search-btn:hover {
+  background: linear-gradient(135deg, var(--secondary), var(--primary)) !important;
+  box-shadow: 0 0 20px var(--primary), 0 0 30px var(--secondary);
+  transform: scale(1.05);
+}
+
+/* ============================= */
+/* RESPONSIVE ajustes */
+/* ============================= */
+@media (max-width: 991px) {
+  .search-box {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .search-input {
+    width: 100%; /* ocupa todo el ancho en móvil */
+    margin-bottom: 10px;
+  }
+
+  .search-btn {
+    width: 100%; /* botón también ocupa todo el ancho */
+  }
+}
