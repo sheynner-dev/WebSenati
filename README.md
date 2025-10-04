@@ -40,19 +40,19 @@ Sitio web educativo que muestra la oferta académica de una institución tipo **
 
 ## 🗂 Estructura del proyecto (relevante)
 src/
-├─ components/
-│ ├─ Navbar.jsx
-│ └─ Footer.jsx
-├─ pages/
-│ ├─ Home.jsx
-│ ├─ Acerca.jsx
-│ ├─ Cursos.jsx
-│ ├─ DetalleCurso.jsx
-│ ├─ Contacto.jsx
-│ └─ Reseñas.jsx
-├─ routes.js
-├─ main.jsx
-└─ index.css
+├── components/
+│   ├── Navbar.jsx
+│   └── Footer.jsx
+├── pages/
+│   ├── Home.jsx
+│   ├── Acerca.jsx
+│   ├── Cursos.jsx
+│   ├── DetalleCurso.jsx
+│   ├── Contacto.jsx
+│   └── Reseñas.jsx
+├── routes.js
+├── main.jsx
+└── index.css
 
 ---
 
