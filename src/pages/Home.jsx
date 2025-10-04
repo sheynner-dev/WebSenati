@@ -45,7 +45,7 @@ function Home() {
     <main className="fade-in">
       {/* Banner educativo */}
       <section style={{
-        backgroundImage: `linear-gradient(135deg, rgba(0,18,25,0.6), rgba(0,95,115,0.4)), url('/3P-SENATI.png')`,
+        backgroundImage: `linear-gradient(135deg, rgba(0,18,25,0.6), rgba(0,95,115,0.4)), url('/WebSenati/3P-SENATI.png')`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
@@ -79,8 +79,8 @@ function Home() {
             <Card className="card h-100 bg-dark text-white">
               <Card.Body className="d-flex flex-column align-items-center justify-content-center h-100">
                 <Card.Title className="glow-text mb-3">Enlaces SENATI</Card.Title>
-                <img src="/ENLACES SENATI.jfif" alt="SENATI" style={{ maxWidth: '320px', marginBottom: "18px" }} />
-                <a className="btn btn-outline-secondary" href="/guia_matricula_web.pdf" target="_blank" rel="noreferrer">Guía de matrícula (PDF)</a>
+                <img src="/WebSenati/ENLACES SENATI.jfif" alt="SENATI" style={{ maxWidth: '320px', marginBottom: "18px" }} />
+                <a className="btn btn-outline-secondary" href="/WebSenati/guia_matricula_web.pdf" target="_blank" rel="noreferrer">Guía de matrícula (PDF)</a>
               </Card.Body>
             </Card>
           </Col>
@@ -136,7 +136,7 @@ function Home() {
                   Explora conceptos clave de React como estado, efectos, componentes y hooks. Prácticas y proyectos para tu portafolio.
                 </Card.Text>
                 <div className="d-flex justify-content-center">
-                  <a className="btn btn-success" style={{ background: "linear-gradient(90deg,#00f5ff,#d400ff)", border: "none" }} href="/18-Introducción-a-React.pptx.pdf" target="_blank" rel="noreferrer">Ver guía</a>
+                  <a className="btn btn-success" style={{ background: "linear-gradient(90deg,#00f5ff,#d400ff)", border: "none" }} href="/WebSenati/18-Introducción-a-React.pptx.pdf" target="_blank" rel="noreferrer">Ver guía</a>
                 </div>
               </Card.Body>
             </Card>

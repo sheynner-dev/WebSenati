@@ -21,7 +21,7 @@ function Cursos() {
           {filtered.map((c) => (
             <Col xs={12} md={6} lg={4} key={c.id}>
               <Card className="card h-100 bg-dark text-white">
-                {c.imagen && <img src={encodeURI(c.imagen)} alt={c.nombre} className="card-img-top" style={{ objectFit: 'cover', height: 160 }} />}
+                {c.imagen && <img src={`/WebSenati/${encodeURI(c.imagen)}`} alt={c.nombre} className="card-img-top" style={{ objectFit: 'cover', height: 160 }} />}
                 <Card.Body>
                   <Card.Title className="glow-text" style={{ color: '#fff' }}>{c.nombre}</Card.Title>
                   <Card.Text style={{ color: '#fff' }}>{c.descripcion}</Card.Text>

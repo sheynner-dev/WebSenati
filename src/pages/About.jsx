@@ -33,7 +33,7 @@ function About() {
             <Card className="bg-dark text-white h-100" style={{ borderRadius: 18, boxShadow: "0 0 18px #00f5ff22", padding: "1.5rem 0" }}>
               <Card.Body className="d-flex flex-column align-items-center justify-content-center h-100">
                 <img
-                  src="/DOCENTES SENATI.png"
+                  src="/WebSenati/DOCENTES SENATI.png"
                   alt="Docentes SENATI"
                   style={{
                     borderRadius: "12px",
@@ -86,7 +86,7 @@ function About() {
           <Col xs={12} md={4}>
             <Card className="bg-dark text-white h-100" style={{ borderRadius: 18, boxShadow: "0 0 18px #00f5ff22", padding: "1.5rem 0" }}>
               <Card.Body className="d-flex flex-column align-items-center justify-content-center h-100">
-                <img src="/CAMPUS SENATI.jpg" alt="Campus SENATI" style={{ width: "100%", maxWidth: "340px", height: "160px", objectFit: "cover", borderRadius: "12px", marginBottom: "16px" }} />
+                <img src="/WebSenati/CAMPUS SENATI.jpg" alt="Campus SENATI" style={{ width: "100%", maxWidth: "340px", height: "160px", objectFit: "cover", borderRadius: "12px", marginBottom: "16px" }} />
                 <Card.Title className="glow-text mb-2">Campus moderno</Card.Title>
                 <Card.Text className="text-center">
                   Espacios diseñados para el aprendizaje práctico y colaborativo.
@@ -97,7 +97,7 @@ function About() {
           <Col xs={12} md={4}>
             <Card className="bg-dark text-white h-100" style={{ borderRadius: 18, boxShadow: "0 0 18px #00f5ff22", padding: "1.5rem 0" }}>
               <Card.Body className="d-flex flex-column align-items-center justify-content-center h-100">
-                <img src="/LABORATORIO SENATI.jpg" alt="Laboratorio SENATI" style={{ width: "100%", maxWidth: "340px", height: "160px", objectFit: "cover", borderRadius: "12px", marginBottom: "16px" }} />
+                <img src="/WebSenati/LABORATORIO SENATI.jpg" alt="Laboratorio SENATI" style={{ width: "100%", maxWidth: "340px", height: "160px", objectFit: "cover", borderRadius: "12px", marginBottom: "16px" }} />
                 <Card.Title className="glow-text mb-2">Laboratorios equipados</Card.Title>
                 <Card.Text className="text-center">
                   Tecnología de punta para simulaciones y prácticas reales.

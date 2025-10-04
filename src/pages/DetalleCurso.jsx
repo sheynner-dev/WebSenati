@@ -38,7 +38,7 @@ function DetalleCurso() {
         <Card className="card p-4 mx-auto bg-dark text-white" style={{ maxWidth: 900 }}>
           <Row>
             <Col md={6}>
-              <img src={encodeURI(curso.imagen)} alt={curso.nombre} className="img-fluid mb-3" />
+              <img src={`/WebSenati/${encodeURI(curso.imagen)}`} alt={curso.nombre} className="img-fluid mb-3" />
             </Col>
             <Col md={6}>
               <h2 className="glow-text" style={{ color: '#fff' }}>{curso.nombre}</h2>
