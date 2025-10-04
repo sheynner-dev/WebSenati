@@ -16,9 +16,7 @@
 - [Capturas y descripciones](#-capturas-y-descripciones)  
 - [Instalación y ejecución](#-instalación-y-ejecución-local)  
 - [Notas de desarrollo](#-notas-de-desarrollo--consideraciones)  
-- [Cómo contribuir](#-cómo-contribuir)  
-- [Autores & Licencia](#-autores--licencia)  
-- [Contacto](#-contacto)
+- [Autores](#-autores)  
 
 ---
 
@@ -39,6 +37,7 @@ Sitio web educativo que muestra la oferta académica de una institución tipo **
 ---
 
 ## 🗂 Estructura del proyecto (relevante)
+text
 src/
 ├── components/
 │   ├── Navbar.jsx
