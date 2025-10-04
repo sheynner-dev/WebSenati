@@ -6,7 +6,7 @@
 ---
 
 > **Autores:** **Alonso Zavala** & **Sheynner Zavala**  
-> Tarea: HT-02 & HT-03 — SPA moderna con React, Vite y React-Bootstrap. 🎓🚀
+> Tarea: HT-04 & HT-05 — SPA moderna con React, Vite y React-Bootstrap. 🎓🚀
 
 ---
 
