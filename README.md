@@ -1,10 +1,6 @@
 # 🌐 Sitio Web Educativo **SENATI** (React + Vite)
 
 
-# 👥 Autores
-# Alonso Zavala — Alonsozz20 (GitHub)
-# Sheynner Zavala — sheynner-dev (GitHub)
-
 **Proyecto subido a dominio de GitHub:** https://sheynner-dev.github.io/WebSenati/
 
 ---
