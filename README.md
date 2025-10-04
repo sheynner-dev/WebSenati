@@ -9,17 +9,6 @@
 
 ---
 
-## 🔖 Tabla de contenidos
-- [Descripción](#-descripción)  
-- [Características principales](#-características-principales)  
-- [Estructura del proyecto](#-estructura-del-proyecto)  
-- [Capturas y descripciones](#-capturas-y-descripciones)  
-- [Instalación y ejecución](#-instalación-y-ejecución-local)  
-- [Notas de desarrollo](#-notas-de-desarrollo--consideraciones)  
-- [Autores](#-autores)  
-
----
-
 ## 🧾 Descripción
 Sitio web educativo que muestra la oferta académica de una institución tipo **SENATI**. Implementa una **Single Page Application (SPA)** con navegación fluida, formularios validados con **Formik + Yup**, y componentes reutilizables (Navbar & Footer). Perfecto para exhibir cursos, detalles, contacto y reseñas.
 
@@ -36,7 +25,7 @@ Sitio web educativo que muestra la oferta académica de una institución tipo **
 
 ---
 
-## 🗂 Estructura del proyecto (relevante)
+🗂 Estructura del proyecto (relevante)
 text
 src/
 ├── components/
