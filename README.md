@@ -4,7 +4,7 @@
 
 ---
 
-> **Autores:** Alonso & **Sheynner Zavala**  
+> **Autores:** **Alonso Zavala** & **Sheynner Zavala**  
 > Tarea: HT-02 & HT-03 — SPA moderna con React, Vite y React-Bootstrap. 🎓🚀
 
 ---
@@ -22,25 +22,6 @@ Sitio web educativo que muestra la oferta académica de una institución tipo **
 - Estilos en `src/index.css` + Bootstrap importado en `src/main.jsx`.  
 - SPA con `react-router-dom` (sin recargas de página).  
 - Diseño responsive con React-Bootstrap. 📱💻
-
----
-
-🗂 Estructura del proyecto (relevante)
-text
-src/
-├── components/
-│   ├── Navbar.jsx
-│   └── Footer.jsx
-├── pages/
-│   ├── Home.jsx
-│   ├── Acerca.jsx
-│   ├── Cursos.jsx
-│   ├── DetalleCurso.jsx
-│   ├── Contacto.jsx
-│   └── Reseñas.jsx
-├── routes.js
-├── main.jsx
-└── index.css
 
 ---
 
